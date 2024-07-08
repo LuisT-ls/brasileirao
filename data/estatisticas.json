@@ -1,0 +1,359 @@
+{
+  "artilharia": [
+      {
+          "jogador": "Gabigol",
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "gols": 15
+      },
+      {
+          "jogador": "Hulk",
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "gols": 12
+      },
+      {
+          "jogador": "Marinho",
+          "time": {
+              "nome": "Santos",
+              "escudo": "img/times/santos.png"
+          },
+          "gols": 10
+      },
+      {
+          "jogador": "Luciano",
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "gols": 9
+      },
+      {
+          "jogador": "Rony",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "gols": 8
+      },
+      {
+          "jogador": "Vina",
+          "time": {
+              "nome": "Ceará",
+              "escudo": "img/times/ceara.png"
+          },
+          "gols": 7
+      },
+      {
+          "jogador": "Thiago Galhardo",
+          "time": {
+              "nome": "Internacional",
+              "escudo": "img/times/internacional.png"
+          },
+          "gols": 6
+      },
+      {
+          "jogador": "Marquinhos",
+          "time": {
+              "nome": "Atlético-GO",
+              "escudo": "img/times/atletico-go.png"
+          },
+          "gols": 5
+      },
+      {
+          "jogador": "Nenê",
+          "time": {
+              "nome": "Fluminense",
+              "escudo": "img/times/fluminense.png"
+          },
+          "gols": 4
+      },
+      {
+          "jogador": "Raphael Veiga",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "gols": 3
+      }
+  ],
+  "mais_vitorias": [
+      {
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "vitorias": 10
+      },
+      {
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "vitorias": 9
+      },
+      {
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "vitorias": 8
+      },
+      {
+          "time": {
+              "nome": "Fortaleza",
+              "escudo": "img/times/fortaleza.png"
+          },
+          "vitorias": 7
+      },
+      {
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "vitorias": 6
+      }
+  ],
+  "mais_assistencias": [
+      {
+          "jogador": "Vina",
+          "time": {
+              "nome": "Ceará",
+              "escudo": "img/times/ceara.png"
+          },
+          "assistencias": 10
+      },
+      {
+          "jogador": "Arrascaeta",
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "assistencias": 8
+      },
+      {
+          "jogador": "Luciano",
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "assistencias": 7
+      },
+      {
+          "jogador": "Rony",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "assistencias": 6
+      },
+      {
+          "jogador": "Marinho",
+          "time": {
+              "nome": "Santos",
+              "escudo": "img/times/santos.png"
+          },
+          "assistencias": 5
+      },
+      {
+          "jogador": "Nenê",
+          "time": {
+              "nome": "Fluminense",
+              "escudo": "img/times/fluminense.png"
+          },
+          "assistencias": 4
+      },
+      {
+          "jogador": "Thiago Galhardo",
+          "time": {
+              "nome": "Internacional",
+              "escudo": "img/times/internacional.png"
+          },
+          "assistencias": 3
+      },
+      {
+          "jogador": "Marquinhos",
+          "time": {
+              "nome": "Atlético-GO",
+              "escudo": "img/times/atletico-go.png"
+          },
+          "assistencias": 2
+      },
+      {
+          "jogador": "Hulk",
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "assistencias": 1
+      },
+      {
+          "jogador": "Raphael Veiga",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "assistencias": 0
+      }
+  ],
+  "defesa_menos_vazada": [
+      {
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "gols_sofridos": 10
+      },
+      {
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "gols_sofridos": 12
+      },
+      {
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "gols_sofridos": 13
+      },
+      {
+          "time": {
+              "nome": "Fortaleza",
+              "escudo": "img/times/fortaleza.png"
+          },
+          "gols_sofridos": 14
+      },
+      {
+          "time": {
+              "nome": "Internacional",
+              "escudo": "img/times/internacional.png"
+          },
+          "gols_sofridos": 15
+      },
+      {
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "gols_sofridos": 16
+      },
+      {
+          "time": {
+              "nome": "Ceará",
+              "escudo": "img/times/ceara.png"
+          },
+          "gols_sofridos": 17
+      },
+      {
+          "time": {
+              "nome": "Santos",
+              "escudo": "img/times/santos.png"
+          },
+          "gols_sofridos": 18
+      },
+      {
+          "time": {
+              "nome": "Athletico-PR",
+              "escudo": "img/times/athletico-pr.png"
+          },
+          "gols_sofridos": 19
+      },
+      {
+          "time": {
+              "nome": "Atlético-GO",
+              "escudo": "img/times/atletico-go.png"
+          },
+          "gols_sofridos": 20
+      }
+  ],
+  "cartoes_amarelos": [
+      {
+          "jogador": "Gabigol",
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "cartoes_amarelos": 5
+      },
+      {
+          "jogador": "Hulk",
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "cartoes_amarelos": 4
+      },
+      {
+          "jogador": "Marinho",
+          "time": {
+              "nome": "Santos",
+              "escudo": "img/times/santos.png"
+          },
+          "cartoes_amarelos": 3
+      },
+      {
+          "jogador": "Luciano",
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "cartoes_amarelos": 2
+      },
+      {
+          "jogador": "Rony",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "cartoes_amarelos": 1
+      }
+  ],
+  "cartoes_vermelhos": [
+      {
+          "jogador": "Gabigol",
+          "time": {
+              "nome": "Flamengo",
+              "escudo": "img/times/flamengo.png"
+          },
+          "cartoes_vermelhos": 2
+      },
+      {
+          "jogador": "Hulk",
+          "time": {
+              "nome": "Atlético-MG",
+              "escudo": "img/times/atletico-mg.png"
+          },
+          "cartoes_vermelhos": 1
+      },
+      {
+          "jogador": "Marinho",
+          "time": {
+              "nome": "Santos",
+              "escudo": "img/times/santos.png"
+          },
+          "cartoes_vermelhos": 1
+      },
+      {
+          "jogador": "Luciano",
+          "time": {
+              "nome": "São Paulo",
+              "escudo": "img/times/sao-paulo.png"
+          },
+          "cartoes_vermelhos": 1
+      },
+      {
+          "jogador": "Rony",
+          "time": {
+              "nome": "Palmeiras",
+              "escudo": "img/times/palmeiras.png"
+          },
+          "cartoes_vermelhos": 1
+      }
+  ]
+}

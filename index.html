@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brasileirão Série A</title>
+    <meta
+      name="description"
+      content="Acompanhe todas as informações sobre o Campeonato Brasileiro Série A. Tabela, jogos, estatísticas, notícias e muito mais."
+    />
+    <meta
+      name="keywords"
+      content="Brasileirão, Série A, futebol, tabela, jogos, estatísticas, notícias"
+    />
+    <meta name="author" content="Seu Nome" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="canonical" href="https://www.seusite.com/brasileirao" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; script-src 'self';"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SportsOrganization",
+        "name": "Brasileirão Série A",
+        "url": "https://www.brasileirao.com",
+        "logo": "https://www.brasileirao.com/img/logo.jpg",
+        "sameAs": [
+          "https://www.facebook.com/brasileirao",
+          "https://www.twitter.com/brasileirao",
+          "https://www.instagram.com/brasileirao",
+          "https://www.youtube.com/brasileirao"
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <header role="banner">
+      <div class="container">
+        <a
+          href="index.html"
+          class="logo"
+          aria-label="Página inicial do Brasileirão Série A"
+        >
+          <img
+            src="img/logo.jpg"
+            alt="Logo do Brasileirão Série A"
+            loading="lazy"
+          />
+        </a>
+        <nav role="navigation" aria-label="Menu principal">
+          <ul>
+            <li><a href="#tabela" aria-current="page">Tabela</a></li>
+            <li><a href="#jogos">Jogos</a></li>
+            <li><a href="#estatisticas">Estatísticas</a></li>
+            <li><a href="#noticias">Notícias</a></li>
+            <li><a href="#transferencias">Transferências</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar" role="search">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar..."
+            aria-label="Campo de busca"
+          />
+          <button id="search-button" aria-label="Realizar busca">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <div class="user-actions">
+          <button id="login-button" aria-label="Fazer login">Login</button>
+          <button id="register-button" aria-label="Registrar-se">
+            Registrar
+          </button>
+          <div id="user-menu" style="display: none">
+            <span id="user-name"></span>
+            <button id="logout-button" aria-label="Fazer logout">Logout</button>
+          </div>
+        </div>
+        <button id="theme-toggle" aria-label="Alternar tema claro/escuro">
+          <i class="fas fa-sun" aria-hidden="true"></i>
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><a href="index.html">Início</a></li>
+        <li aria-current="page">Página Atual</li>
+      </ol>
+    </nav>
+
+    <main role="main">
+      <section id="destaques" aria-labelledby="destaques-titulo">
+        <h2 id="destaques-titulo">Destaques</h2>
+        <div class="destaque">
+          <h3>Jogo da Rodada</h3>
+          <article class="jogo-destaque">
+            <img src="img/times/flamengo.png" alt="Flamengo" />
+            <img src="img/times/palmeiras.png" alt="Palmeiras" />
+            <p>Flamengo x Palmeiras - 10/07/2024 - 20:00</p>
+          </article>
+        </div>
+        <div class="destaque">
+          <h3>Resultados Importantes</h3>
+          <ul class="resultados-importantes">
+            <li>São Paulo 2 x 1 Corinthians</li>
+            <li>Grêmio 0 x 0 Internacional</li>
+          </ul>
+        </div>
+        <div class="destaque">
+          <h3>Últimas Notícias</h3>
+          <ul class="ultimas-noticias">
+            <li>
+              <a href="#">Flamengo vence mais uma e dispara na liderança</a>
+            </li>
+            <li>
+              <a href="#"
+                >Corinthians busca empate no clássico contra o Palmeiras</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="tabela" aria-labelledby="tabela-titulo">
+        <h2 id="tabela-titulo">Tabela de Classificação</h2>
+        <div id="tabela-filtros" role="group" aria-label="Filtros da tabela">
+          <button class="filtro-btn" data-filter="todos">Todos</button>
+          <button class="filtro-btn" data-filter="g4">G4</button>
+          <button class="filtro-btn" data-filter="z4">Z4</button>
+        </div>
+        <table
+          class="tabela-classificacao"
+          aria-label="Classificação dos times"
+        >
+          <thead>
+            <tr>
+              <th>Posição</th>
+              <th>Time</th>
+              <th>Pontos</th>
+              <th>Jogos</th>
+              <th>Vitórias</th>
+              <th>Empates</th>
+              <th>Derrotas</th>
+              <th>Saldo de Gols</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-body"></tbody>
+        </table>
+      </section>
+
+      <section id="jogos">
+        <h2>Próximos Jogos</h2>
+        <div id="jogos-filtros">
+          <input type="date" id="filtro-data" aria-label="Filtrar por data" />
+          <select id="filtro-time" aria-label="Filtrar por time">
+            <option value="">Todos os times</option>
+          </select>
+        </div>
+        <div class="lista-jogos" id="lista-jogos">
+          <div class="jogo">
+            <span>Flamengo vs Palmeiras</span>
+            <time datetime="2024-07-10T20:00:00">10/07/2024 - 20:00</time>
+          </div>
+        </div>
+      </section>
+
+      <section id="estatisticas">
+        <h2>Estatísticas</h2>
+        <div class="estatisticas-jogadores">
+          <h3>Artilharia</h3>
+          <ul id="lista-artilheiros"></ul>
+        </div>
+        <div class="estatisticas-times">
+          <h3>Mais Vitórias</h3>
+          <ul id="lista-vitorias"></ul>
+        </div>
+      </section>
+
+      <section id="historico">
+        <h2>Histórico do Campeonato</h2>
+        <div id="campeoes-anteriores"></div>
+        <div id="recordes"></div>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre o Brasileirão Série A</h2>
+        <p>
+          O Campeonato Brasileiro de Futebol da Série A, mais conhecido como
+          Brasileirão, é a principal competição de futebol do Brasil. Fundado em
+          1959, o campeonato reúne os melhores clubes do país em uma disputa
+          anual pelo título de campeão brasileiro.
+        </p>
+      </section>
+
+      <section id="estatisticas-detalhadas">
+        <h2>Estatísticas Detalhadas</h2>
+        <div class="estatisticas-container">
+          <div class="estatistica-item">
+            <h3>Gols por Rodada</h3>
+            <canvas id="gols-por-rodada-chart"></canvas>
+          </div>
+          <div class="estatistica-item">
+            <h3>Posse de Bola Média</h3>
+            <canvas id="posse-de-bola-chart"></canvas>
+          </div>
+          <div class="estatistica-item">
+            <h3>Comparação de Times</h3>
+            <select id="time1-select"></select>
+            <select id="time2-select"></select>
+            <canvas id="comparacao-times-chart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section id="transferencias">
+        <h2>Transferências e Rumores</h2>
+        <div id="lista-transferencias"></div>
+        <div id="lista-rumores"></div>
+      </section>
+
+      <section id="mapa-estadios">
+        <h2>Mapa de Estádios</h2>
+        <div id="mapa"></div>
+      </section>
+
+      <section id="noticias" aria-labelledby="noticias-titulo">
+        <h2 id="noticias-titulo">Notícias</h2>
+        <div class="lista-noticias" id="lista-noticias"></div>
+        <button id="carregar-mais-noticias" aria-label="Carregar mais notícias">
+          Carregar mais notícias
+        </button>
+
+        <!-- Sistema de comentários -->
+        <div class="comentarios" aria-label="Seção de comentários">
+          <h3>Comentários</h3>
+          <form id="form-comentario">
+            <label for="nome-comentario">Nome:</label>
+            <input
+              type="text"
+              id="nome-comentario"
+              required
+              aria-required="true"
+            />
+            <label for="texto-comentario">Comentário:</label>
+            <textarea
+              id="texto-comentario"
+              required
+              aria-required="true"
+            ></textarea>
+            <button type="submit">Enviar Comentário</button>
+          </form>
+          <div id="lista-comentarios" aria-live="polite">
+            <!-- Os comentários serão carregados dinamicamente aqui -->
+          </div>
+        </div>
+      </section>
+
+      <section id="patrocinadores">
+        <h2>Patrocinadores</h2>
+        <div class="patrocinadores">
+          <img
+            src="img/patrocinadores/patrocinador1.png"
+            alt="Patrocinador 1"
+          />
+          <img
+            src="img/patrocinadores/patrocinador2.png"
+            alt="Patrocinador 2"
+          />
+          <img
+            src="img/patrocinadores/patrocinador3.png"
+            alt="Patrocinador 3"
+          />
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <form action="enviar_contato.php" method="post">
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer role="contentinfo">
+      <div class="container">
+        <p>&copy; 2024 Brasileirão Série A - Todos os direitos reservados.</p>
+        <nav class="social-media" aria-label="Redes sociais">
+          <ul>
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook do Brasileirão"
+              >
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter do Brasileirão"
+              >
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram do Brasileirão"
+              >
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube do Brasileirão"
+              >
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <!-- Modais -->
+    <div id="login-modal" class="modal">
+      <div class="modal-content">
+        <h2>Login</h2>
+        <form id="login-form">
+          <input type="email" id="login-email" placeholder="Email" required />
+          <input
+            type="password"
+            id="login-password"
+            placeholder="Senha"
+            required
+          />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="register-modal" class="modal" aria-hidden="true">
+      <div
+        class="modal-content"
+        role="dialog"
+        aria-labelledby="register-titulo"
+      >
+        <h2 id="register-titulo">Registrar</h2>
+        <form id="register-form">
+          <input type="text" id="register-name" placeholder="Nome" required />
+          <input
+            type="email"
+            id="register-email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            id="register-password"
+            placeholder="Senha"
+            required
+          />
+          <button type="submit">Registrar</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="js/script.js" defer></script>
+  </body>
+</html>

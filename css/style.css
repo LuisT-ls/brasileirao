@@ -1,0 +1,771 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #0056b3, #007bff);
+  color: #fff;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.logo-container {
+  /* Novo container para a logo e o título */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espaçamento entre a logo e o título */
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 180px; /* Reduzimos um pouco o tamanho da logo */
+  height: auto;
+  border-radius: 8px; /* Bordas arredondadas na logo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil na logo */
+}
+
+.logo h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra sutil no texto */
+}
+
+nav {
+  flex: 2;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 25px; /* Bordas mais arredondadas */
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex; /* Permite usar flexbox para alinhar ícone e texto */
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: #0069d9;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a i {
+  /* Estilos para os ícones */
+  margin-right: 8px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 2px solid #fff; /* Borda mais grossa */
+  border-radius: 25px 0 0 25px; /* Bordas mais arredondadas */
+  width: 100%;
+  font-size: 1em; /* Aumenta o tamanho da fonte */
+}
+
+.search-bar button {
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.user-actions {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-actions button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.user-actions button:hover {
+  background-color: #218838; /* Verde mais escuro ao passar o mouse */
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.4em;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+main section {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a seção destaques */
+#destaques {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: grid; /* Usa grid para organizar os destaques */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ); /* Layout responsivo */
+  gap: 20px;
+}
+
+#destaques h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  grid-column: 1 / -1; /* Ocupa todas as colunas do grid */
+}
+
+.destaque {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.destaque h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Estilos específicos para o jogo em destaque */
+.jogo-destaque {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.jogo-destaque img {
+  max-width: 50px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.jogo-destaque p {
+  font-weight: bold;
+}
+
+/* Estilos para as listas de resultados e notícias */
+.resultados-importantes,
+.ultimas-noticias {
+  list-style: none;
+  padding: 0;
+}
+
+.resultados-importantes li,
+.ultimas-noticias li {
+  margin-bottom: 5px;
+}
+
+.ultimas-noticias a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ultimas-noticias a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para a tabela do campeonato */
+#tabela {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#tabela h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#tabela-filtros {
+  display: flex;
+  justify-content: flex-end; /* Alinha os botões à direita */
+  margin-bottom: 10px;
+}
+
+.filtro-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filtro-btn:hover {
+  background-color: #ddd;
+}
+
+.tabela-classificacao {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Para distribuir as colunas uniformemente */
+}
+
+.tabela-classificacao th,
+.tabela-classificacao td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center; /* Centraliza o conteúdo das células */
+}
+
+.tabela-classificacao th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+/* Estilos para linhas zebradas */
+.tabela-classificacao tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Destaque para o G4 e Z4 (opcional) */
+.g4 {
+  background-color: #d4edda !important; /* Verde claro */
+}
+
+.z4 {
+  background-color: #f8d7da !important; /* Vermelho claro */
+}
+
+/* Estilos para outras seções e elementos */
+#jogos {
+  /* Estilos para a seção de jogos */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#jogos h2 {
+  /* Título da seção */
+  color: #007bff; /* Cor primária */
+  margin-bottom: 15px;
+}
+
+#jogos-filtros {
+  /* Container dos filtros */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#jogos-filtros input,
+#jogos-filtros select {
+  /* Estilos para os campos de filtro */
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.lista-jogos {
+  /* Container da lista de jogos */
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Layout responsivo */
+  gap: 20px;
+}
+
+.jogo {
+  /* Estilos para cada jogo */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.jogo span {
+  /* Nome do jogo */
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.jogo time {
+  /* Data e hora do jogo */
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Estilos para a seção de estatísticas */
+#estatisticas {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#estatisticas h2 {
+  /* Título da seção */
+  color: #007bff; /* Cor primária */
+  margin-bottom: 15px;
+}
+
+.estatisticas-jogadores,
+.estatisticas-times {
+  /* Containers das estatísticas */
+  margin-bottom: 20px;
+}
+
+.estatisticas-jogadores h3,
+.estatisticas-times h3 {
+  /* Títulos das subseções */
+  color: #28a745; /* Cor secundária */
+  margin-bottom: 10px;
+}
+
+#lista-artilheiros,
+#lista-vitorias {
+  /* Listas de artilheiros e vitórias */
+  list-style: none;
+  padding: 0;
+}
+
+#lista-artilheiros li,
+#lista-vitorias li {
+  /* Itens das listas */
+  margin-bottom: 5px;
+}
+
+/* Estilos para gráficos (se aplicável) */
+#estatisticas canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para a seção de histórico */
+#historico {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#historico h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#campeoes-anteriores,
+#recordes {
+  display: flex; /* Use flexbox para organizar os itens */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+#campeoes-anteriores > div,
+#recordes > div {
+  flex: 1 1 200px; /* Cada item ocupa pelo menos 200px e cresce para preencher o espaço disponível */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Estilos para títulos e conteúdo dentro dos itens (opcional) */
+#campeoes-anteriores h3,
+#recordes h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a seção "Sobre" */
+#sobre {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#sobre p {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Estilos para a seção de estatísticas detalhadas */
+#estatisticas-detalhadas {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#estatisticas-detalhadas h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.estatisticas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.estatistica-item {
+  flex: 1 1 300px; /* Cada item ocupa pelo menos 300px e cresce para preencher o espaço disponível */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.estatistica-item h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.estatistica-item canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para os selects de comparação de times */
+#time1-select,
+#time2-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a seção de transferências e rumores */
+#transferencias {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#transferencias h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#lista-transferencias,
+#lista-rumores {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Layout responsivo */
+  gap: 20px;
+}
+
+#lista-transferencias > div,
+#lista-rumores > div {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Estilos para títulos e conteúdo dentro dos itens (opcional) */
+#lista-transferencias h3,
+#lista-rumores h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a seção de estádios */
+#mapa-estadios {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#mapa-estadios h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#mapa {
+  /* Estilos para o container do mapa */
+  width: 100%;
+  height: 400px; /* Ajuste a altura conforme necessário */
+  border: 1px solid #ddd;
+}
+
+/* Estilos para a seção de notícias */
+#noticias {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#noticias h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.lista-noticias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.lista-noticias > article {
+  /* Estilos para cada notícia */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.lista-noticias h3 {
+  /* Título da notícia */
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.lista-noticias p {
+  /* Texto da notícia */
+  line-height: 1.6;
+}
+
+.lista-noticias a {
+  /* Link da notícia */
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lista-noticias a:hover {
+  text-decoration: underline;
+}
+
+#carregar-mais-noticias {
+  /* Botão "Carregar mais notícias" */
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para comentários */
+.comentarios {
+  margin-top: 30px;
+}
+
+.comentarios h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+#form-comentario label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form-comentario input,
+#form-comentario textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#form-comentario button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#lista-comentarios {
+  margin-top: 20px;
+}
+
+/* Estilos para os patrocinadores */
+#patrocinadores {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#patrocinadores h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.patrocinadores {
+  display: flex;
+  justify-content: space-around; /* Distribui os patrocinadores uniformemente */
+  align-items: center; /* Alinha verticalmente ao centro */
+  flex-wrap: wrap; /* Permite quebras de linha em telas menores */
+}
+
+.patrocinadores img {
+  max-width: 150px; /* Largura máxima para cada logo */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 10px; /* Espaçamento entre os logos */
+}
+
+/* Estilos para a seção de contato */
+#contato {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contato h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#contato form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas para os campos */
+  gap: 15px;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contato input,
+#contato textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#contato textarea {
+  height: 120px;
+}
+
+#contato button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  grid-column: span 2; /* Ocupa as duas colunas */
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333; /* Cinza escuro para o fundo */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px 0;
+  text-align: center; /* Centraliza o texto */
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #007bff; /* Cor primária ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Outros ajustes para telas menores */
+}
