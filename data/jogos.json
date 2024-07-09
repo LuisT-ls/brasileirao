@@ -1,422 +1,128 @@
 [
-  {
-      "rodada": 10,
-      "data": "2024-07-10",
-      "horario": "20:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 10,
-      "data": "2024-07-14",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Morumbi",
-      "status": "agendado"
-  },
-  {
-      "rodada": 11,
-      "data": "2024-07-21",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 11,
-      "data": "2024-07-21",
-      "horario": "20:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 11,
-      "data": "2024-07-21",
-      "horario": "20:00",
-      "mandante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Arena Corinthians",
-      "status": "agendado"
-  },
-  {
-      "rodada": 12,
-      "data": "2024-07-28",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 12,
-      "data": "2024-07-28",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Allianz Parque",
-      "status": "agendado"
-  },
-  {
-      "rodada": 12,
-      "data": "2024-07-28",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 13,
-      "data": "2024-08-04",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 13,
-      "data": "2024-08-04",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Morumbi",
-      "status": "agendado"
-  },
-  {
-      "rodada": 13,
-      "data": "2024-08-04",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 14,
-      "data": "2024-08-11",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 14,
-      "data": "2024-08-11",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "visitante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "estadio": "Allianz Parque",
-      "status": "agendado"
-  },
-  {
-      "rodada": 14,
-      "data": "2024-08-11",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 15,
-      "data": "2024-08-18",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 15,
-      "data": "2024-08-18",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 15,
-      "data": "2024-08-18",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 16,
-      "data": "2024-08-25",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 16,
-      "data": "2024-08-25",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "visitante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "estadio": "Allianz Parque",
-      "status": "agendado"
-  },
-  {
-      "rodada": 16,
-      "data": "2024-08-25",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 17,
-      "data": "2024-09-01",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 17,
-      "data": "2024-09-01",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 17,
-      "data": "2024-09-01",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 18,
-      "data": "2024-09-08",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 18,
-      "data": "2024-09-08",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "visitante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "estadio": "Allianz Parque",
-      "status": "agendado"
-  },
-  {
-      "rodada": 18,
-      "data": "2024-09-08",
-      "horario": "18:30",
-      "mandante": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "visitante": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "estadio": "Arena do Grêmio",
-      "status": "agendado"
-  },
-  {
-      "rodada": 19,
-      "data": "2024-09-15",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "visitante": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "estadio": "Maracanã",
-      "status": "agendado"
-  },
-  {
-      "rodada": 19,
-      "data": "2024-09-15",
-      "horario": "16:00",
-      "mandante": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "visitante": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "estadio": "Beira-Rio",
-      "status": "agendado"
-  }
-]
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Palmeiras",
+      "dateTime": "2024-07-10T20:00:00"
+    },
+    {
+      "homeTeam": "Santos",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-07-10T20:00:00"
+    },
+    {
+      "homeTeam": "Internacional",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-07-10T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Santos",
+      "dateTime": "2024-07-17T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-07-17T20:00:00"
+    },
+    {
+      "homeTeam": "Internacional",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-07-17T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-07-24T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Santos",
+      "dateTime": "2024-07-24T20:00:00"
+    },
+    {
+      "homeTeam": "Internacional",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-07-24T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Internacional",
+      "dateTime": "2024-07-31T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-07-31T20:00:00"
+    },
+    {
+      "homeTeam": "Santos",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-07-31T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-08-07T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Internacional",
+      "dateTime": "2024-08-07T20:00:00"
+    },
+    {
+      "homeTeam": "Santos",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-08-07T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Santos",
+      "dateTime": "2024-08-14T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-08-14T20:00:00"
+    },
+    {
+      "homeTeam": "Internacional",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-08-14T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-08-21T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Santos",
+      "dateTime": "2024-08-21T20:00:00"
+    },
+    {
+      "homeTeam": "Internacional",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-08-21T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Internacional",
+      "dateTime": "2024-08-28T20:00:00"
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-08-28T20:00:00"
+    },
+    {
+      "homeTeam": "Santos",
+      "awayTeam": "São Paulo",
+      "dateTime": "2024-08-28T20:00:00"
+    },
+    {
+      "homeTeam": "Flamengo",
+      "awayTeam": "Corinthians",
+      "dateTime": "2024-09-04T20:00:00"
+    }
+  ]
+  

@@ -1,302 +1,203 @@
 [
-  {
-      "posicao": 1,
-      "time": {
-          "nome": "Flamengo",
-          "escudo": "img/times/flamengo.png"
-      },
-      "pontos": 30,
-      "jogos": 10,
-      "vitorias": 10,
-      "empates": 0,
-      "derrotas": 0,
-      "gols_marcados": 25,
-      "gols_sofridos": 10,
-      "saldo_gols": 15
-  },
-  {
-      "posicao": 2,
-      "time": {
-          "nome": "Palmeiras",
-          "escudo": "img/times/palmeiras.png"
-      },
-      "pontos": 28,
-      "jogos": 10,
-      "vitorias": 9,
-      "empates": 1,
-      "derrotas": 0,
-      "gols_marcados": 22,
-      "gols_sofridos": 8,
-      "saldo_gols": 14
-  },
-  {
-      "posicao": 3,
-      "time": {
-          "nome": "São Paulo",
-          "escudo": "img/times/sao-paulo.png"
-      },
-      "pontos": 22,
-      "jogos": 10,
-      "vitorias": 7,
-      "empates": 1,
-      "derrotas": 2,
-      "gols_marcados": 18,
-      "gols_sofridos": 12,
-      "saldo_gols": 6
-  },
-  {
-      "posicao": 4,
-      "time": {
-          "nome": "Corinthians",
-          "escudo": "img/times/corinthians.png"
-      },
-      "pontos": 20,
-      "jogos": 10,
-      "vitorias": 6,
-      "empates": 2,
-      "derrotas": 2,
-      "gols_marcados": 15,
-      "gols_sofridos": 10,
-      "saldo_gols": 5
-  },
-  {
-      "posicao": 5,
-      "time": {
-          "nome": "Grêmio",
-          "escudo": "img/times/gremio.png"
-      },
-      "pontos": 18,
-      "jogos": 10,
-      "vitorias": 5,
-      "empates": 3,
-      "derrotas": 2,
-      "gols_marcados": 14,
-      "gols_sofridos": 10,
-      "saldo_gols": 4
-  },
-  {
-      "posicao": 6,
-      "time": {
-          "nome": "Internacional",
-          "escudo": "img/times/internacional.png"
-      },
-      "pontos": 15,
-      "jogos": 10,
-      "vitorias": 4,
-      "empates": 3,
-      "derrotas": 3,
-      "gols_marcados": 12,
-      "gols_sofridos": 10,
-      "saldo_gols": 2
-  },
-  {
-      "posicao": 7,
-      "time": {
-          "nome": "Vasco",
-          "escudo": "img/times/vasco.png"
-      },
-      "pontos": 12,
-      "jogos": 10,
-      "vitorias": 3,
-      "empates": 3,
-      "derrotas": 4,
-      "gols_marcados": 10,
-      "gols_sofridos": 12,
-      "saldo_gols": -2
-  },
-  {
-      "posicao": 8,
-      "time": {
-          "nome": "Fluminense",
-          "escudo": "img/times/fluminense.png"
-      },
-      "pontos": 10,
-      "jogos": 10,
-      "vitorias": 2,
-      "empates": 4,
-      "derrotas": 4,
-      "gols_marcados": 8,
-      "gols_sofridos": 10,
-      "saldo_gols": -2
-  },
-  {
-      "posicao": 9,
-      "time": {
-          "nome": "Botafogo",
-          "escudo": "img/times/botafogo.png"
-      },
-      "pontos": 8,
-      "jogos": 10,
-      "vitorias": 2,
-      "empates": 2,
-      "derrotas": 6,
-      "gols_marcados": 10,
-      "gols_sofridos": 15,
-      "saldo_gols": -5
-  },
-  {
-      "posicao": 10,
-      "time": {
-          "nome": "Atlético-MG",
-          "escudo": "img/times/atletico-mg.png"
-      },
-      "pontos": 7,
-      "jogos": 10,
-      "vitorias": 2,
-      "empates": 1,
-      "derrotas": 7,
-      "gols_marcados": 10,
-      "gols_sofridos": 20,
-      "saldo_gols": -10
-  },
-  {
-      "posicao": 11,
-      "time": {
-          "nome": "Cruzeiro",
-          "escudo": "img/times/cruzeiro.png"
-      },
-      "pontos": 5,
-      "jogos": 10,
-      "vitorias": 1,
-      "empates": 2,
-      "derrotas": 7,
-      "gols_marcados": 8,
-      "gols_sofridos": 20,
-      "saldo_gols": -12
-  },
-  {
-      "posicao": 12,
-      "time": {
-          "nome": "América-MG",
-          "escudo": "img/times/america-mg.png"
-      },
-      "pontos": 4,
-      "jogos": 10,
-      "vitorias": 1,
-      "empates": 1,
-      "derrotas": 8,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 13,
-      "time": {
-          "nome": "Chapecoense",
-          "escudo": "img/times/chapecoense.png"
-      },
-      "pontos": 3,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 3,
-      "derrotas": 7,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 14,
-      "time": {
-          "nome": "Sport",
-          "escudo": "img/times/sport.png"
-      },
-      "pontos": 2,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 2,
-      "derrotas": 8,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 15,
-      "time": {
-          "nome": "Bahia",
-          "escudo": "img/times/bahia.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 16,
-      "time": {
-          "nome": "Ceará",
-          "escudo": "img/times/ceara.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 17,
-      "time": {
-          "nome": "Fortaleza",
-          "escudo": "img/times/fortaleza.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 18,
-      "time": {
-          "nome": "Atlético-GO",
-          "escudo": "img/times/atletico-go.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 19,
-      "time": {
-          "nome": "CSA",
-          "escudo": "img/times/csa.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  },
-  {
-      "posicao": 20,
-      "time": {
-          "nome": "Avaí",
-          "escudo": "img/times/avai.png"
-      },
-      "pontos": 1,
-      "jogos": 10,
-      "vitorias": 0,
-      "empates": 1,
-      "derrotas": 9,
-      "gols_marcados": 5,
-      "gols_sofridos": 20,
-      "saldo_gols": -15
-  }
-]
+    {
+      "position": 1,
+      "team": "Flamengo",
+      "points": 40,
+      "games": 20,
+      "wins": 12,
+      "draws": 4,
+      "losses": 4,
+      "goalDifference": 15
+    },
+    {
+      "position": 2,
+      "team": "Santos",
+      "points": 37,
+      "games": 20,
+      "wins": 11,
+      "draws": 4,
+      "losses": 5,
+      "goalDifference": 10
+    },
+    {
+      "position": 3,
+      "team": "Palmeiras",
+      "points": 36,
+      "games": 20,
+      "wins": 10,
+      "draws": 6,
+      "losses": 4,
+      "goalDifference": 13
+    },
+    {
+      "position": 4,
+      "team": "São Paulo",
+      "points": 35,
+      "games": 20,
+      "wins": 9,
+      "draws": 8,
+      "losses": 3,
+      "goalDifference": 9
+    },
+    {
+      "position": 5,
+      "team": "Internacional",
+      "points": 33,
+      "games": 20,
+      "wins": 9,
+      "draws": 6,
+      "losses": 5,
+      "goalDifference": 10
+    },
+    {
+      "position": 6,
+      "team": "Corinthians",
+      "points": 32,
+      "games": 20,
+      "wins": 8,
+      "draws": 8,
+      "losses": 4,
+      "goalDifference": 6
+    },
+    {
+      "position": 7,
+      "team": "Bahia",
+      "points": 31,
+      "games": 20,
+      "wins": 8,
+      "draws": 7,
+      "losses": 5,
+      "goalDifference": 5
+    },
+    {
+      "position": 8,
+      "team": "Grêmio",
+      "points": 30,
+      "games": 20,
+      "wins": 7,
+      "draws": 9,
+      "losses": 4,
+      "goalDifference": 5
+    },
+    {
+      "position": 9,
+      "team": "Athletico Paranaense",
+      "points": 27,
+      "games": 20,
+      "wins": 8,
+      "draws": 3,
+        "losses": 9,
+        "goalDifference": 3
+    },
+    {
+      "position": 10,
+      "team": "Fortaleza",
+      "points": 24,
+      "games": 20,
+      "wins": 6,
+      "draws": 6,
+      "losses": 8,
+      "goalDifference": -2
+    },
+    {
+      "position": 11,
+      "team": "Ceará",
+      "points": 23,
+      "games": 20,
+      "wins": 6,
+      "draws": 5,
+      "losses": 9,
+      "goalDifference": -4
+    },
+    {
+      "position": 12,
+      "team": "Vasco da Gama",
+      "points": 23,
+      "games": 20,
+      "wins": 6,
+      "draws": 5,
+      "losses": 9,
+      "goalDifference": -5
+    },
+    {
+      "position": 13,
+      "team": "Atlético Mineiro",
+      "points": 22,
+      "games": 20,
+      "wins": 6,
+      "draws": 4,
+      "losses": 10,
+      "goalDifference": -5
+    },
+    {
+      "position": 14,
+      "team": "Botafogo",
+      "points": 22,
+      "games": 20,
+      "wins": 6,
+      "draws": 4,
+      "losses": 10,
+      "goalDifference": -6
+    },
+    {
+      "position": 15,
+      "team": "Fluminense",
+      "points": 20,
+      "games": 20,
+      "wins": 6,
+      "draws": 2,
+      "losses": 12,
+      "goalDifference": -10
+    },
+    {
+      "position": 16,
+      "team": "CSA",
+      "points": 19,
+      "games": 20,
+      "wins": 5,
+      "draws": 4,
+      "losses": 11,
+      "goalDifference": -10
+    },
+    {
+      "position": 17,
+      "team": "Chapecoense",
+      "points": 16,
+      "games": 20,
+      "wins": 3,
+      "draws": 7,
+        "losses": 10,
+        "goalDifference": -10
+    },
+    {
+      "position": 18,
+      "team": "Cruzeiro",
+      "points": 15,
+      "games": 20,
+      "wins": 4,
+      "draws": 3,
+      "losses": 13,
+      "goalDifference": -15
+    },
+    {
+      "position": 19,
+      "team": "Avaí",
+      "points": 13,
+      "games": 20,
+      "wins": 2,
+      "draws": 7,
+      "losses": 11,
+      "goalDifference": -16
+    },
+    {
+      "position": 20,
+      "team": "Goias",
+      "points": 13,
+      "games": 20,
+      "wins": 3,
+      "draws": 4,
+      "losses": 13,
+      "goalDifference": -17
+    }
+  ]
+  
